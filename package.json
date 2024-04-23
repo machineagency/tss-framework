@@ -12,7 +12,9 @@
     "@observablehq/framework": "latest",
     "d3-dsv": "^3.0.1",
     "d3-time-format": "^4.1.0",
-    "mathjs": "^12.4.1"
+    "mathjs": "^12.4.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
   },
   "devDependencies": {
     "rimraf": "^5.0.5"

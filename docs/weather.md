@@ -5,8 +5,9 @@ const forecast = FileAttachment("./data/forecast.json").json();
 ```
 
 ```js
-import {passes} from '/trajectory.ts';
+import {passes} from "./trajectory";
 ```
+
 ```js
 function temperaturePlot(data, {width} = {}) {
   return Plot.plot({

@@ -502,7 +502,7 @@ function normalize(v0: number | null, v: number | null, a: number | null,
 const limits = kinematicLimits(Vec3(10, 10, 10), Vec3(10, 10, 10), 10, 10);
 export const passes: TrajectoryPasses = computeLineSegments(TOOLPATH_TABLE.rectangle, limits);
 
-function computeLineSegments(tp: Toolpath, kl: KinematicLimits): TrajectoryPasses {
+ export function computeLineSegments(tp: Toolpath, kl: KinematicLimits): TrajectoryPasses {
     let irs;
     // handles lowering
     if (tp.isa == "ebb") {
